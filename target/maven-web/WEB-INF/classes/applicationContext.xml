@@ -22,7 +22,7 @@
 	<context:component-scan base-package="web"/>
 	
 	<!-- @AspectJ support enabled -->
-	<aop:aspectj-autoproxy />
+	<aop:aspectj-autoproxy/>
 	
 	<!-- Spring JPA -->
 	<jpa:repositories base-package="web.dao"/>
